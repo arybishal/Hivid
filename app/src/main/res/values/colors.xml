@@ -1,0 +1,16 @@
+<resources>
+    <color name="bg">#0B0B0D</color>
+    <color name="surface">#17171A</color>
+    <color name="surfaceHigh">#202024</color>
+    <color name="border">#2C2C32</color>
+    <color name="accent">#F2DC3C</color>
+    <color name="accentPressed">#D9C42E</color>
+    <color name="accentDim">#8A7F22</color>
+    <color name="onAccent">#1A1A1A</color>
+    <color name="text">#F2F2F2</color>
+    <color name="textMuted">#A3A3AB</color>
+    <color name="textFaint">#6E6E76</color>
+    <color name="success">#7BD88F</color>
+    <color name="warning">#FFB74D</color>
+    <color name="error">#FF6B6B</color>
+</resources>

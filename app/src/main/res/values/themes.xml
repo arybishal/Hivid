@@ -1,0 +1,9 @@
+<resources>
+    <style name="Theme.Hivid" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">#0B0B0D</item>
+        <item name="android:navigationBarColor">#0B0B0D</item>
+        <item name="android:windowBackground">#0B0B0D</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+</resources>

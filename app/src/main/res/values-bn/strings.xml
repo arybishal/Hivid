@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">Hivid</string>
+    <string name="app_subtitle">STUDIO MAX · SDR → HDR</string>
+    <string name="legend_line">হলুদ = অ্যাকশন · ডার্ক প্যানেল = তথ্য · স্লাইডার = সমন্বয়</string>
+    <string name="badge_max">MAX</string>
+    
+    <string name="tab_convert">রূপান্তর</string>
+    <string name="tab_remux">রিমাক্স</string>
+    <string name="tab_guide">নির্দেশিকা</string>
+    <string name="tab_history">ইতিহাস</string>
+    <string name="settings_title">সেটিংস</string>
+
+    <string name="hdr_mastering_engine">HDR মাস্টারিং ইঞ্জিন</string>
+    <string name="hdr_engine_desc">অন-ডিভাইস ১০-বিট GPU পাইপলাইন। SMPTE ST 2084 (PQ) সহ Rec.709 SDR থেকে BT.2020 HDR।</string>
+    <string name="spec_10bit">10-BIT</string>
+    <string name="spec_bt2020">BT.2020</string>
+    <string name="spec_pq">PQ</string>
+    <string name="spec_gpu">GPU</string>
+    
+    <string name="source_video">উৎস ভিডিও</string>
+    <string name="source_video_desc">SDR MP4 বা MOV ভিডিও নির্বাচন করুন। মূল ফাইল কখনোই পরিবর্তিত বা মুছে ফেলা হবে না।</string>
+    <string name="btn_pick_video">ভিডিও বেছে নিন</string>
+    <string name="no_video_selected">কোনো ভিডিও নির্বাচিত হয়নি</string>
+    <string name="video_prefix">ভিডিও · %s</string>
+    <string name="warn_already_hdr">উৎস ইতিমধ্যে HDR (%s)।</string>
+
+    <string name="output_profile">আউটপুট প্রোফাইল</string>
+    <string name="profile_hdr10">HDR10</string>
+    <string name="profile_hdr10_plus">HDR10+ MAX</string>
+    <string name="hdr10_ready">HDR10: প্রস্তুত</string>
+    <string name="hdr10_unsupported">HDR10: সমর্থিত নয়</string>
+    <string name="hdr10_plus_ready">HDR10+: প্রস্তুত</string>
+    <string name="hdr10_plus_unsupported">HDR10+: সমর্থিত নয়</string>
+    <string name="hdr10_plus_disabled_reason">ডিভাইস হার্ডওয়্যার এনকোডার Main10HDR10Plus সমর্থন করে না।</string>
+
+    <string name="frame_rate_engine">ফ্রেম রেট ইঞ্জিন</string>
+    <string name="frame_rate_desc">সঠিক উপস্থাপনা টাইমস্ট্যাম্প (PTS) বজায় রাখে।</string>
+    <string name="fps_source">উৎস ক্যাডেন্স</string>
+    <string name="fps_cap_60">৬০ FPS সীমা</string>
+
+    <string name="hdr_expansion">HDR বিস্তার</string>
+    <string name="hdr_expansion_desc">ইনভার্স টোন ম্যাপিং তীব্রতা। ছায়া রক্ষা করে উজ্জ্বলতা বৃদ্ধি করে।</string>
+    <string name="expansion_natural">প্রাকৃতিক</string>
+    <string name="expansion_balanced">ভারসাম্যপূর্ণ</string>
+    <string name="expansion_aggressive">আগ্রাসী</string>
+
+    <string name="processing_status">প্রক্রিয়াকরণ স্থিতি</string>
+    <string name="status_idle">নিষ্ক্রিয় · রূপান্তরের জন্য প্রস্তুত</string>
+    <string name="status_processing">প্রক্রিয়াকরণ চলছে · %d%%</string>
+    <string name="status_done">সম্পন্ন · Movies-এ সংরক্ষিত</string>
+    <string name="status_cancelled">বাতিল</string>
+    <string name="status_error">ব্যর্থ হয়েছে</string>
+    <string name="output_hint">টাইমস্ট্যাম্প সহ Movies/Hivid-এ সংরক্ষিত।</string>
+
+    <string name="btn_convert">HDR-এ রূপান্তর করুন</string>
+    <string name="btn_cancel">বাতিল করুন</string>
+
+    <string name="pipeline_definitions">পাইপলাইন সংজ্ঞা</string>
+    <string name="def_hevc_title">HEVC Main10</string>
+    <string name="def_hevc_desc">১০-বিট H.265 ভিডিও প্রোফাইল যা রঙ ব্যান্ডিং দূর করে।</string>
+    <string name="def_bt2020_title">BT.2020 কালার স্পেস</string>
+    <string name="def_bt2020_desc">প্রশস্ত রঙের বিস্তার।</string>
+    <string name="def_pq_title">PQ (SMPTE ST 2084)</string>
+    <string name="def_pq_desc">মানুষের ভিজ্যুয়াল সংবেদনশীলতার জন্য ক্যালিব্রেট করা স্থানান্তরণ ফাংশন।</string>
+    <string name="def_hdr10_title">HDR10 বেসলাইন</string>
+    <string name="def_hdr10_desc">শিল্প-মানক উন্মুক্ত HDR ফর্ম্যাট।</string>
+    <string name="def_hdr10plus_title">HDR10+ MAX</string>
+    <string name="def_hdr10plus_desc">গতিশীল মেটাডেটা অপ্টিমাইজেশন।</string>
+    <string name="def_gallery_title">গ্যালারি ও ডিসপ্লে ব্রাইটনেস</string>
+    <string name="def_gallery_desc">HDR ডিসপ্লেগুলি স্বয়ংক্রিয়ভাবে উজ্জ্বল OLED মোড সক্রিয় করে।</string>
+
+    <string name="remux_title">কন্টেইনার ও মেটাডেটা ইঞ্জিন</string>
+    <string name="remux_desc">পুনরায় এনকোড না করে ক্ষতিহীন কন্টেইনার রিমাক্সিং।</string>
+    <string name="chip_safe_h264">SAFE H.264</string>
+    <string name="chip_orig_bitrate">ORIGINAL BITRATE</string>
+    <string name="chip_safe_hdr">SAFE HDR/SDR</string>
+    <string name="chip_streaming">STREAMING</string>
+    <string name="btn_pick_mp4">MP4 ভিডিও বেছে নিন</string>
+    <string name="remux_ready">ভিডিও প্রক্রিয়াকরণের জন্য প্রস্তুত</string>
+    <string name="remux_waiting">পর্যায়: উৎসের জন্য অপেক্ষা করছে</string>
+    <string name="btn_process">প্রক্রিয়া শুরু করুন</string>
+    <string name="verification_title">যাচাইকরণ</string>
+    <string name="verification_ready">যাচাইকরণ সিস্টেম প্রস্তুত</string>
+    <string name="verification_passed">যাচাইকরণ সফল · নির্ভুল মিল নিশ্চিত</string>
+    <string name="btn_open_tech">প্রযুক্তিগত অ্যাক্সেস খুলুন</string>
+
+    <string name="dialog_hdr_complete">HDR সম্পূর্ণ</string>
+    <string name="dialog_remux_complete">রিমাক্স সম্পূর্ণ</string>
+    <string name="dialog_ok">ঠিক আছে</string>
+    <string name="dialog_open">খুলুন</string>
+    <string name="dialog_share">শেয়ার করুন</string>
+
+    <string name="history_title">রূপান্তর ইতিহাস</string>
+    <string name="history_empty">এখনও কোনো রূপান্তর রেকর্ড করা হয়নি।</string>
+    <string name="btn_delete">মুছুন</string>
+    <string name="confirm_delete">আপনি কি এই ফাইলটি মুছে ফেলতে চান?</string>
+
+    <string name="guide_title">HDR মাস্টারিং গাইড</string>
+    <string name="faq_q1">SDR থেকে HDR কি আসল HDR?</string>
+    <string name="faq_a1">SDR থেকে HDR হল জিপিইউ ইনভার্স টোন ম্যাপিং। এটি হাইলাইট উজ্জ্বল করে কিন্তু ক্যামেরায় রেকর্ড না হওয়া তথ্য যোগ করতে পারে না।</string>
+    <string name="faq_q2">ইনস্টাগ্রাম/টিকটকে আপলোড ভিন্ন কেন দেখায়?</string>
+    <string name="faq_a2">প্ল্যাটফর্মগুলি ভিডিও সংকুচিত করতে পারে। ইউটিউব পূর্ণ HDR10 সমর্থন করে।</string>
+    <string name="faq_q3">রূপান্তরে কি ব্যাটারি খরচ হয়?</string>
+    <string name="faq_a3">4K60 ভিডিও প্রসেসিং ডিভাইসে চাপ সৃষ্টি করে। Hivid তাপীয় থ্রোটলিং নিরীক্ষণ করে।</string>
+
+    <string name="notif_channel_name">HDR রূপান্তর অগ্রগতি</string>
+    <string name="notif_channel_desc">ভিডিও এনকোডিং অগ্রগতি প্রদর্শন করে</string>
+    <string name="notif_converting">ভিডিও HDR-এ রূপান্তর করা হচ্ছে…</string>
+    <string name="notif_remuxing">কন্টেইনার রিমাক্স করা হচ্ছে…</string>
+    <string name="notif_done">রূপান্তর সমাপ্ত</string>
+</resources>

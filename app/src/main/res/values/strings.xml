@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">Hivid</string>
+    <string name="app_subtitle">STUDIO MAX · SDR → HDR</string>
+    <string name="legend_line">YELLOW = ACTION · DARK PANEL = INFORMATION · SLIDER = ADJUST</string>
+    <string name="badge_max">MAX</string>
+    
+    <!-- Navigation Tabs -->
+    <string name="tab_convert">Convert</string>
+    <string name="tab_remux">Remux</string>
+    <string name="tab_guide">Guide</string>
+    <string name="tab_history">History</string>
+    <string name="settings_title">Settings</string>
+
+    <!-- Convert Screen -->
+    <string name="hdr_mastering_engine">HDR MASTERING ENGINE</string>
+    <string name="hdr_engine_desc">On-device 10-bit GPU pipeline. Rec.709 SDR to BT.2020 HDR with SMPTE ST 2084 (PQ) inverse tone mapping.</string>
+    <string name="spec_10bit">10-BIT</string>
+    <string name="spec_bt2020">BT.2020</string>
+    <string name="spec_pq">PQ</string>
+    <string name="spec_gpu">GPU</string>
+    
+    <string name="source_video">SOURCE VIDEO</string>
+    <string name="source_video_desc">Select an SDR MP4 or MOV video. The original file will never be modified or overwritten.</string>
+    <string name="btn_pick_video">PICK VIDEO</string>
+    <string name="no_video_selected">NO VIDEO SELECTED</string>
+    <string name="video_prefix">VIDEO · %s</string>
+    <string name="warn_already_hdr">SOURCE IS ALREADY HDR (%s). Conversion is not recommended as it may clip highlights or cause tone mismatch.</string>
+
+    <string name="output_profile">OUTPUT PROFILE</string>
+    <string name="profile_hdr10">HDR10</string>
+    <string name="profile_hdr10_plus">HDR10+ MAX</string>
+    <string name="hdr10_ready">HDR10: READY</string>
+    <string name="hdr10_unsupported">HDR10: NOT SUPPORTED</string>
+    <string name="hdr10_plus_ready">HDR10+: READY</string>
+    <string name="hdr10_plus_unsupported">HDR10+: NOT SUPPORTED</string>
+    <string name="hdr10_plus_disabled_reason">Device hardware encoder does not support Main10HDR10Plus profile.</string>
+
+    <string name="frame_rate_engine">FRAME RATE ENGINE</string>
+    <string name="frame_rate_desc">Preserves exact presentation timestamps (PTS) to maintain native cadence without frame jitter.</string>
+    <string name="fps_source">SOURCE CADENCE</string>
+    <string name="fps_cap_60">60 FPS CAP</string>
+
+    <string name="hdr_expansion">HDR EXPANSION</string>
+    <string name="hdr_expansion_desc">Inverse tone mapping curve intensity. Expands upper highlights toward 1000 nits while preserving shadow and skin tones.</string>
+    <string name="expansion_natural">Natural</string>
+    <string name="expansion_balanced">Balanced</string>
+    <string name="expansion_aggressive">Aggressive</string>
+
+    <string name="processing_status">PROCESSING STATUS</string>
+    <string name="status_idle">IDLE · READY TO CONVERT</string>
+    <string name="status_processing">PROCESSING · %d%%</string>
+    <string name="status_done">COMPLETED · SAVED TO MOVIES</string>
+    <string name="status_cancelled">CANCELLED</string>
+    <string name="status_error">FAILED</string>
+    <string name="output_hint">Saved to Movies/Hivid with timestamp.</string>
+
+    <string name="btn_convert">CONVERT TO HDR</string>
+    <string name="btn_cancel">CANCEL</string>
+
+    <!-- Pipeline Definitions -->
+    <string name="pipeline_definitions">PIPELINE DEFINITIONS</string>
+    <string name="def_hevc_title">HEVC Main10</string>
+    <string name="def_hevc_desc">10-bit H.265 video profile providing 1,024 levels per color channel, eliminating color banding in expanded dynamic range.</string>
+    <string name="def_bt2020_title">BT.2020 Color Space</string>
+    <string name="def_bt2020_desc" formatted="false">Wide color gamut covering ~75% of the visible spectrum, compared to only ~35% for traditional Rec.709 SDR.</string>
+    <string name="def_pq_title">PQ (SMPTE ST 2084)</string>
+    <string name="def_pq_desc">Perceptual Quantizer non-linear electro-optical transfer function calibrated to human visual contrast sensitivity up to 10,000 cd/m².</string>
+    <string name="def_hdr10_title">HDR10 Baseline</string>
+    <string name="def_hdr10_desc">Industry-standard open HDR format pairing 10-bit color, BT.2020 gamut, and static mastering display metadata.</string>
+    <string name="def_hdr10plus_title">HDR10+ MAX</string>
+    <string name="def_hdr10plus_desc">Dynamic metadata extension allowing scene-by-scene brightness optimization on capable HDR displays and chipsets.</string>
+    <string name="def_gallery_title">Gallery &amp; Player Brightness</string>
+    <string name="def_gallery_desc">HDR displays activate high-brightness OLED mode automatically when detecting ST.2084 transfer metadata tags.</string>
+
+    <!-- Remux Screen -->
+    <string name="remux_title">CONTAINER &amp; METADATA ENGINE</string>
+    <string name="remux_desc">Lossless container remuxing, MP4 box restructuring, and metadata preservation without re-encoding video frames.</string>
+    <string name="chip_safe_h264">SAFE H.264</string>
+    <string name="chip_orig_bitrate">ORIGINAL BITRATE</string>
+    <string name="chip_safe_hdr">SAFE HDR/SDR</string>
+    <string name="chip_streaming">STREAMING</string>
+    <string name="btn_pick_mp4">PICK MP4 VIDEO</string>
+    <string name="remux_ready">Video ready to process</string>
+    <string name="remux_waiting">Stage: waiting for source</string>
+    <string name="btn_process">PROCESS</string>
+    <string name="verification_title">VERIFICATION</string>
+    <string name="verification_ready">Verification system ready</string>
+    <string name="verification_passed">Verification passed · Lossless match confirmed</string>
+    <string name="btn_open_tech">OPEN TECHNICAL ACCESS</string>
+
+    <!-- Result Dialog -->
+    <string name="dialog_hdr_complete">HDR COMPLETE</string>
+    <string name="dialog_remux_complete">REMUX COMPLETE</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_open">OPEN</string>
+    <string name="dialog_share">SHARE</string>
+
+    <!-- History Screen -->
+    <string name="history_title">CONVERSION HISTORY</string>
+    <string name="history_empty">No conversions recorded yet. Converted videos saved in Movies/Hivid will appear here.</string>
+    <string name="btn_delete">DELETE</string>
+    <string name="confirm_delete">Delete this record and file?</string>
+
+    <!-- Guide Screen -->
+    <string name="guide_title">HDR MASTERING GUIDE</string>
+    <string name="faq_q1">Is SDR to HDR true HDR?</string>
+    <string name="faq_a1">SDR to HDR uses inverse tone mapping on the GPU. It expands highlights toward 1000 nits and maps Rec.709 primaries into BT.2020. While it makes OLED screens glow vividly, it cannot restore clipped camera sensor data that was never captured.</string>
+    <string name="faq_q2">Why do uploads look different on Instagram/TikTok?</string>
+    <string name="faq_a2">Social media platforms often compress or tone-map uploaded video into standard SDR if their ingestion pipeline does not support HDR10. YouTube supports full HDR10 playback natively.</string>
+    <string name="faq_q3">Does conversion use battery or generate heat?</string>
+    <string name="faq_a3">Processing 4K60 video heavily taxes the hardware encoder and GPU. Hivid monitors thermal throttling and uses efficient EGL hardware surfaces to minimize battery consumption.</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_name">HDR Conversion Progress</string>
+    <string name="notif_channel_desc">Shows ongoing on-device video encoding progress</string>
+    <string name="notif_converting">Converting video to HDR…</string>
+    <string name="notif_remuxing">Remuxing container…</string>
+    <string name="notif_done">Conversion finished</string>
+</resources>

@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">Hivid</string>
+    <string name="app_subtitle">STUDIO MAX · SDR → HDR</string>
+    <string name="legend_line">الأصفر = إجراء · لوحة داكنة = معلومات · منزلق = ضبط</string>
+    <string name="badge_max">MAX</string>
+    
+    <string name="tab_convert">تحويل</string>
+    <string name="tab_remux">إعادة تجميع</string>
+    <string name="tab_guide">الدليل</string>
+    <string name="tab_history">السجل</string>
+    <string name="settings_title">الإعدادات</string>
+
+    <string name="hdr_mastering_engine">محرك إتقان HDR</string>
+    <string name="hdr_engine_desc">معالجة GPU محلية بدقة 10 بت. تحويل Rec.709 SDR إلى BT.2020 HDR مع SMPTE ST 2084 (PQ).</string>
+    <string name="spec_10bit">10-BIT</string>
+    <string name="spec_bt2020">BT.2020</string>
+    <string name="spec_pq">PQ</string>
+    <string name="spec_gpu">GPU</string>
+    
+    <string name="source_video">فيديو المصدر</string>
+    <string name="source_video_desc">حدد فيديو SDR MP4 أو MOV. لن يتم تعديل الملف الأصلي أو استبداله أبداً.</string>
+    <string name="btn_pick_video">اختر فيديو</string>
+    <string name="no_video_selected">لم يتم تحديد فيديو</string>
+    <string name="video_prefix">فيديو · %s</string>
+    <string name="warn_already_hdr">المصدر يدعم HDR بالفعل (%s).</string>
+
+    <string name="output_profile">ملف الإخراج</string>
+    <string name="profile_hdr10">HDR10</string>
+    <string name="profile_hdr10_plus">HDR10+ MAX</string>
+    <string name="hdr10_ready">HDR10: جاهز</string>
+    <string name="hdr10_unsupported">HDR10: غير مدعوم</string>
+    <string name="hdr10_plus_ready">HDR10+: جاهز</string>
+    <string name="hdr10_plus_unsupported">HDR10+: غير مدعوم</string>
+    <string name="hdr10_plus_disabled_reason">جهاز التشفير المادي لا يدعم ملف تعريف Main10HDR10Plus.</string>
+
+    <string name="frame_rate_engine">محرك معدل الإطارات</string>
+    <string name="frame_rate_desc">يحافظ على الطوابع الزمنية الدقيقة للإطارات (PTS).</string>
+    <string name="fps_source">إيقاع المصدر</string>
+    <string name="fps_cap_60">حد أقصى 60 إطاراً/ث</string>
+
+    <string name="hdr_expansion">توسيع نطاق HDR</string>
+    <string name="hdr_expansion_desc">كثافة منحنى تعيين النغمات العكسي. يوسع السطوع العالي مع حماية الظلال.</string>
+    <string name="expansion_natural">طبيعي</string>
+    <string name="expansion_balanced">متوازن</string>
+    <string name="expansion_aggressive">قوي</string>
+
+    <string name="processing_status">حالة المعالجة</string>
+    <string name="status_idle">خامل · جاهز للتحويل</string>
+    <string name="status_processing">قيد المعالجة · %d%%</string>
+    <string name="status_done">اكتمل · تم الحفظ في الأفلام</string>
+    <string name="status_cancelled">تم الإلغاء</string>
+    <string name="status_error">فشل</string>
+    <string name="output_hint">تم الحفظ في Movies/Hivid مع طابع زمني.</string>
+
+    <string name="btn_convert">تحويل إلى HDR</string>
+    <string name="btn_cancel">إلغاء</string>
+
+    <string name="pipeline_definitions">تعريفات المسار</string>
+    <string name="def_hevc_title">HEVC Main10</string>
+    <string name="def_hevc_desc">ملف تعريف فيديو H.265 بدقة 10 بت يوفر 1024 مستوى لكل قناة لونية.</string>
+    <string name="def_bt2020_title">مساحة اللون BT.2020</string>
+    <string name="def_bt2020_desc" formatted="false">تدرج لوني واسع يغطي حوالي 75% من الطيف المرئي.</string>
+    <string name="def_pq_title">PQ (SMPTE ST 2084)</string>
+    <string name="def_pq_desc">دالة نقل غير خطية محسوبة لحساسية العين البشرية حتى 10000 شمعة/م².</string>
+    <string name="def_hdr10_title">معيار HDR10</string>
+    <string name="def_hdr10_desc">تنسيق HDR مفتوح معتمد عالمياً.</string>
+    <string name="def_hdr10plus_title">HDR10+ MAX</string>
+    <string name="def_hdr10plus_desc">بيانات وصفية ديناميكية تضبط السطوع مشهداً تلو الآخر.</string>
+    <string name="def_gallery_title">السطوع والشاشات</string>
+    <string name="def_gallery_desc">تفعّل شاشات OLED وضع السطوع العالي تلقائياً عند اكتشاف وسوم ST.2084.</string>
+
+    <string name="remux_title">محرك الحاويات والبيانات الوصفية</string>
+    <string name="remux_desc">إعادة تغليف الحاوية دون فقدان وبدون إعادة تشفير الإطارات.</string>
+    <string name="chip_safe_h264">SAFE H.264</string>
+    <string name="chip_orig_bitrate">ORIGINAL BITRATE</string>
+    <string name="chip_safe_hdr">SAFE HDR/SDR</string>
+    <string name="chip_streaming">STREAMING</string>
+    <string name="btn_pick_mp4">اختر فيديو MP4</string>
+    <string name="remux_ready">الفيديو جاهز للمعالجة</string>
+    <string name="remux_waiting">المرحلة: بانتظار المصدر</string>
+    <string name="btn_process">بدء المعالجة</string>
+    <string name="verification_title">التحقق</string>
+    <string name="verification_ready">نظام التحقق جاهز</string>
+    <string name="verification_passed">تم التحقق بنجاح · تطابق كامل بدون فقدان</string>
+    <string name="btn_open_tech">فتح التفاصيل التقنية</string>
+
+    <string name="dialog_hdr_complete">اكتمل تحويل HDR</string>
+    <string name="dialog_remux_complete">اكتملت إعادة التجميع</string>
+    <string name="dialog_ok">حسناً</string>
+    <string name="dialog_open">فتح</string>
+    <string name="dialog_share">مشاركة</string>
+
+    <string name="history_title">سجل التحويل</string>
+    <string name="history_empty">لا توجد تحويلات مسجلة بعد.</string>
+    <string name="btn_delete">حذف</string>
+    <string name="confirm_delete">هل أنت متأكد من حذف هذا السجل والملف؟</string>
+
+    <string name="guide_title">دليل إتقان HDR</string>
+    <string name="faq_q1">هل التحويل من SDR إلى HDR هو HDR حقيقي؟</string>
+    <string name="faq_a1">يعتمد ذلك على تعيين النغمات العكسي في وحدة معالجة الرسوميات. يوسع السطوع لكنه لا يسترجع التفاصيل التي لم تسجلها الكاميرا أصلًا.</string>
+    <string name="faq_q2">لماذا تختلف النتيجة على إنستغرام أو تيك توك؟</string>
+    <string name="faq_a2">تقوم بعض المنصات بضغط الفيديو إلى SDR عادي. يوتيوب يدعم تشغيل HDR10 بالكامل.</string>
+    <string name="faq_q3">هل يستهلك التحويل البطارية؟</string>
+    <string name="faq_a3">معالجة 4K60 تستهلك طاقة المعالج الرسومي. يراقب التطبيق الحرارة لمنع الإجهاد الحراري.</string>
+
+    <string name="notif_channel_name">تقدم تحويل HDR</string>
+    <string name="notif_channel_desc">عرض تقدم تشفير الفيديو المستمر</string>
+    <string name="notif_converting">جارٍ تحويل الفيديو إلى HDR…</string>
+    <string name="notif_remuxing">جارٍ إعادة تجميع الحاوية…</string>
+    <string name="notif_done">اكتمل التحويل</string>
+</resources>

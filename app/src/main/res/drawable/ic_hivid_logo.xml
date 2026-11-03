@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- Rounded squircle background -->
+    <path
+        android:fillColor="#17171A"
+        android:strokeColor="#2C2C32"
+        android:strokeWidth="1.5"
+        android:pathData="M12,4 h24 a8,8 0 0,1 8,8 v24 a8,8 0 0,1 -8,8 h-24 a8,8 0 0,1 -8,-8 v-24 a8,8 0 0,1 8,-8 z" />
+    <!-- Yellow HDR Arc -->
+    <path
+        android:strokeColor="#F2DC3C"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M15,24 A9,9 0 0,1 33,24" />
+    <!-- Monogram H -->
+    <path
+        android:fillColor="#F2DC3C"
+        android:pathData="M18,20 h3.5 v6 h7 v-6 h3.5 v14 h-3.5 v-5.5 h-7 v5.5 h-3.5 z" />
+</vector>

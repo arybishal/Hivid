@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">Hivid</string>
+    <string name="app_subtitle">STUDIO MAX · SDR → HDR</string>
+    <string name="legend_line">KUNING = TINDAKAN · PANEL GELAP = INFORMASI · SLIDER = SESUAIKAN</string>
+    <string name="badge_max">MAX</string>
+    
+    <string name="tab_convert">Konversi</string>
+    <string name="tab_remux">Remux</string>
+    <string name="tab_guide">Panduan</string>
+    <string name="tab_history">Riwayat</string>
+    <string name="settings_title">Pengaturan</string>
+
+    <string name="hdr_mastering_engine">MESIN MASTERING HDR</string>
+    <string name="hdr_engine_desc">Pipeline GPU 10-bit pada perangkat. Rec.709 SDR ke BT.2020 HDR dengan SMPTE ST 2084 (PQ).</string>
+    <string name="spec_10bit">10-BIT</string>
+    <string name="spec_bt2020">BT.2020</string>
+    <string name="spec_pq">PQ</string>
+    <string name="spec_gpu">GPU</string>
+    
+    <string name="source_video">VIDEO SUMBER</string>
+    <string name="source_video_desc">Pilih video SDR MP4 atau MOV. File asli tidak akan pernah dimodifikasi atau ditimpa.</string>
+    <string name="btn_pick_video">PILIH VIDEO</string>
+    <string name="no_video_selected">TIDAK ADA VIDEO DIPILIH</string>
+    <string name="video_prefix">VIDEO · %s</string>
+    <string name="warn_already_hdr">SUMBER SUDAH HDR (%s).</string>
+
+    <string name="output_profile">PROFIL OUTPUT</string>
+    <string name="profile_hdr10">HDR10</string>
+    <string name="profile_hdr10_plus">HDR10+ MAX</string>
+    <string name="hdr10_ready">HDR10: SIAP</string>
+    <string name="hdr10_unsupported">HDR10: TIDAK DIDUKUNG</string>
+    <string name="hdr10_plus_ready">HDR10+: SIAP</string>
+    <string name="hdr10_plus_unsupported">HDR10+: TIDAK DIDUKUNG</string>
+    <string name="hdr10_plus_disabled_reason">Encoder perangkat tidak mendukung profil Main10HDR10Plus.</string>
+
+    <string name="frame_rate_engine">MESIN FRAME RATE</string>
+    <string name="frame_rate_desc">Mempertahankan timestamp presentasi asli (PTS).</string>
+    <string name="fps_source">KADENSI SUMBER</string>
+    <string name="fps_cap_60">BATAS 60 FPS</string>
+
+    <string name="hdr_expansion">EKSPANSI HDR</string>
+    <string name="hdr_expansion_desc">Intensitas kurva pemetaan nada terbalik. Memperluas sorotan terang tanpa merusak bayangan.</string>
+    <string name="expansion_natural">Alami</string>
+    <string name="expansion_balanced">Seimbang</string>
+    <string name="expansion_aggressive">Agresif</string>
+
+    <string name="processing_status">STATUS PEMROSESAN</string>
+    <string name="status_idle">SIAP · MENUNGGU KONVERSI</string>
+    <string name="status_processing">MEMPROSES · %d%%</string>
+    <string name="status_done">SELESAI · DISIMPAN DI MOVIES</string>
+    <string name="status_cancelled">DIBATALKAN</string>
+    <string name="status_error">GAGAL</string>
+    <string name="output_hint">Disimpan ke Movies/Hivid dengan timestamp.</string>
+
+    <string name="btn_convert">KONVERSI KE HDR</string>
+    <string name="btn_cancel">BATAL</string>
+
+    <string name="pipeline_definitions">DEFINISI PIPELINE</string>
+    <string name="def_hevc_title">HEVC Main10</string>
+    <string name="def_hevc_desc">Profil video H.265 10-bit yang menyediakan 1.024 tingkat gradasi per saluran warna.</string>
+    <string name="def_bt2020_title">Ruang Warna BT.2020</string>
+    <string name="def_bt2020_desc" formatted="false">Gamut warna luas mencakup ~75% spektrum tampak mata manusia.</string>
+    <string name="def_pq_title">PQ (SMPTE ST 2084)</string>
+    <string name="def_pq_desc">Fungsi transfer non-linear dikalibrasi hingga 10.000 cd/m².</string>
+    <string name="def_hdr10_title">Standar HDR10</string>
+    <string name="def_hdr10_desc">Format HDR terbuka standar industri.</string>
+    <string name="def_hdr10plus_title">HDR10+ MAX</string>
+    <string name="def_hdr10plus_desc">Ekstensi metadata dinamis untuk optimalisasi adegan per adegan.</string>
+    <string name="def_gallery_title">Galeri &amp; Kecerahan Layar</string>
+    <string name="def_gallery_desc">Layar OLED otomatis mengaktifkan mode kecerahan tinggi saat mendeteksi tag ST.2084.</string>
+
+    <string name="remux_title">MESIN KONTAINER &amp; METADATA</string>
+    <string name="remux_desc">Pengemasan ulang kontainer lossless tanpa encoding ulang frame video.</string>
+    <string name="chip_safe_h264">SAFE H.264</string>
+    <string name="chip_orig_bitrate">ORIGINAL BITRATE</string>
+    <string name="chip_safe_hdr">SAFE HDR/SDR</string>
+    <string name="chip_streaming">STREAMING</string>
+    <string name="btn_pick_mp4">PILIH VIDEO MP4</string>
+    <string name="remux_ready">Video siap diproses</string>
+    <string name="remux_waiting">Tahap: menunggu sumber</string>
+    <string name="btn_process">PROSES</string>
+    <string name="verification_title">VERIFIKASI</string>
+    <string name="verification_ready">Sistem verifikasi siap</string>
+    <string name="verification_passed">Verifikasi berhasil · Kecocokan lossless dikonfirmasi</string>
+    <string name="btn_open_tech">BUKA AKSES TEKNIS</string>
+
+    <string name="dialog_hdr_complete">HDR SELESAI</string>
+    <string name="dialog_remux_complete">REMUX SELESAI</string>
+    <string name="dialog_ok">OKE</string>
+    <string name="dialog_open">BUKA</string>
+    <string name="dialog_share">BAGIKAN</string>
+
+    <string name="history_title">RIWAYAT KONVERSI</string>
+    <string name="history_empty">Belum ada riwayat konversi.</string>
+    <string name="btn_delete">HAPUS</string>
+    <string name="confirm_delete">Hapus catatan dan file video ini?</string>
+
+    <string name="guide_title">PANDUAN MASTERING HDR</string>
+    <string name="faq_q1">Apakah SDR ke HDR adalah HDR asli?</string>
+    <string name="faq_a1">SDR ke HDR menggunakan inverse tone mapping pada GPU. Ini memperluas sorotan terang, namun tidak dapat memulihkan detail yang tidak pernah ditangkap kamera.</string>
+    <string name="faq_q2">Mengapa hasil di Instagram/TikTok bisa berbeda?</string>
+    <string name="faq_a2">Platform media sosial sering mengompresi video ke SDR standar. YouTube mendukung pemutaran penuh HDR10.</string>
+    <string name="faq_q3">Apakah konversi menguras baterai?</string>
+    <string name="faq_a3">Pemrosesan 4K60 membebani perangkat keras. Hivid memantau batas termal untuk melindungi masa pakai baterai.</string>
+
+    <string name="notif_channel_name">Kemajuan Konversi HDR</string>
+    <string name="notif_channel_desc">Menampilkan progres encoding video</string>
+    <string name="notif_converting">Mengonversi video ke HDR…</string>
+    <string name="notif_remuxing">Melakukan remuxing kontainer…</string>
+    <string name="notif_done">Konversi selesai</string>
+</resources>

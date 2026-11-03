@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Glow Ring -->
+    <path
+        android:fillColor="#8A7F22"
+        android:pathData="M54,28 A26,26 0 0,1 80,54 A26,26 0 0,1 54,80 A26,26 0 0,1 28,54 A26,26 0 0,1 54,28 Z" />
+    <path
+        android:fillColor="#17171A"
+        android:pathData="M54,32 A22,22 0 0,1 76,54 A22,22 0 0,1 54,76 A22,22 0 0,1 32,54 A22,22 0 0,1 54,32 Z" />
+    <!-- Bright Radiant Sun Arc / HDR rays -->
+    <path
+        android:fillColor="#F2DC3C"
+        android:pathData="M51,20 h6 v8 h-6 z M51,80 h6 v8 h-6 z M20,51 h8 v6 h-8 z M80,51 h8 v6 h-8 z" />
+    <!-- Center 'H' Monogram -->
+    <path
+        android:fillColor="#F2DC3C"
+        android:pathData="M43,40 h5 v10 h12 v-10 h5 v28 h-5 v-13 h-12 v13 h-5 z" />
+</vector>
